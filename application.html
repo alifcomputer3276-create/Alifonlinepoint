@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alif Online Point-এর অনলাইন আবেদন সহায়তার অনুরোধ ফর্ম।">
+  <meta name="theme-color" content="#080d18">
+  <title>অনলাইন আবেদন সহায়তা | Alif Online Point</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="application-form.css">
+</head>
+<body>
+  <a class="skip-link" href="#application-form">মূল ফর্মে যান</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Alif Online Point হোম">
+        <span class="brand-mark" aria-hidden="true"><span>A</span><i></i></span>
+        <span class="brand-copy"><strong>ALIF <span>ONLINE POINT</span></strong><small>DIGITAL SERVICE POINT</small></span>
+      </a>
+      <a class="nav-contact" href="index.html#contact">যোগাযোগ <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="application-page">
+    <section class="application-hero">
+      <div class="container application-hero-inner">
+        <span class="section-kicker">ONLINE APPLICATION ASSISTANCE</span>
+        <h1>অনলাইন আবেদন সহায়তার ফর্ম</h1>
+        <p>নিচের তথ্য পূরণ করে আপনার কাজের অনুরোধ WhatsApp-এ পাঠান। Alif Online Point আপনার অনুরোধ দেখে পরবর্তী করণীয় জানাবে।</p>
+        <p class="form-english">Fill out this request form to contact Alif Online Point about online application assistance.</p>
+      </div>
+    </section>
+
+    <section class="application-content container" id="application-form">
+      <form class="request-form" id="requestForm">
+        <div class="form-heading">
+          <span class="form-step">REQUEST / 01</span>
+          <h2>আপনার তথ্য দিন</h2>
+          <p>তারকা (*) চিহ্ন দেওয়া ঘরগুলো পূরণ করা প্রয়োজন।</p>
+        </div>
+
+        <div class="form-grid">
+          <div class="field-group">
+            <label for="fullName">আপনার নাম <span>*</span><small>Full name</small></label>
+            <input id="fullName" name="fullName" type="text" autocomplete="name" maxlength="90" placeholder="আপনার পুরো নাম" required>
+          </div>
+          <div class="field-group">
+            <label for="mobile">মোবাইল নম্বর <span>*</span><small>Mobile number</small></label>
+            <input id="mobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" maxlength="20" placeholder="যে নম্বরে যোগাযোগ করা যাবে" required>
+          </div>
+          <div class="field-group">
+            <label for="serviceType">কোন সেবাটি প্রয়োজন? <span>*</span><small>Service type</small></label>
+            <select id="serviceType" name="serviceType" required>
+              <option value="" selected disabled>সেবা নির্বাচন করুন</option>
+              <option value="অনলাইন আবেদন সহায়তা">অনলাইন আবেদন সহায়তা</option>
+              <option value="ডকুমেন্ট প্রিন্ট">ডকুমেন্ট প্রিন্ট</option>
+              <option value="ফটোকপি">ফটোকপি</option>
+              <option value="অন্যান্য তথ্য জানতে চাই">অন্যান্য তথ্য জানতে চাই</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label for="applicationType">আবেদনের ধরন <small>Application category</small></label>
+            <input id="applicationType" name="applicationType" type="text" maxlength="120" placeholder="যেমন: চাকরি, ভর্তি বা অন্য আবেদন">
+          </div>
+          <div class="field-group field-full">
+            <label for="details">কাজ সম্পর্কে সংক্ষেপে লিখুন <small>How can we help?</small></label>
+            <textarea id="details" name="details" rows="4" maxlength="700" placeholder="কী ধরনের সহায়তা প্রয়োজন তা লিখুন। এখানে জাতীয় পরিচয়পত্র নম্বর, পাসওয়ার্ড বা OTP লিখবেন না।"></textarea>
+            <div class="field-hint"><span id="charCount">0</span>/700</div>
+          </div>
+        </div>
+
+        <div class="privacy-alert" role="note">
+          <span class="privacy-alert-icon" aria-hidden="true">!</span>
+          <div><strong>ব্যক্তিগত তথ্যের নিরাপত্তা</strong><p>এই ফর্মে NID/পাসপোর্ট নম্বর, পাসওয়ার্ড, OTP, ব্যাংক তথ্য বা গুরুত্বপূর্ণ নথি দেবেন না। এই পেজ তথ্য সংরক্ষণ করে না; আপনার তথ্য দিয়ে WhatsApp-এ একটি বার্তা তৈরি হবে। WhatsApp খুললে নিজে Send চাপতে হবে।</p></div>
+        </div>
+
+        <label class="consent-line" for="consent">
+          <input id="consent" name="consent" type="checkbox" required>
+          <span>আমি বুঝেছি যে ফর্মের তথ্য WhatsApp-এ বার্তা হিসেবে তৈরি হবে এবং পাঠানোর আগে আমি তা দেখে নিতে পারব। <b>*</b></span>
+        </label>
+
+        <button class="button button-primary form-submit" type="submit">WhatsApp-এ অনুরোধ পাঠান <span aria-hidden="true">↗</span></button>
+        <p class="form-footnote">এটি আবেদন-সহায়তার অনুরোধ। সরকারি/প্রাতিষ্ঠানিক আবেদন সরাসরি জমা হয় না; প্রয়োজন হলে মূল প্রতিষ্ঠানের ওয়েবসাইটে আলাদাভাবে আবেদন করতে হবে।</p>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+
+      <aside class="application-side">
+        <div class="side-icon" aria-hidden="true">A.</div>
+        <span class="section-kicker">ALIF ONLINE POINT</span>
+        <h2>সহজ সেবা, আন্তরিক সহযোগিতা।</h2>
+        <p>আপনার অনুরোধ পাওয়ার পর কাজের ধরন, প্রয়োজনীয় কাগজপত্র ও সম্ভাব্য খরচ সম্পর্কে আলোচনা করা যাবে।</p>
+        <div class="side-rule"></div>
+        <a class="back-link" href="index.html">← মূল ওয়েবসাইটে ফিরে যান</a>
+        <a class="back-link" href="index.html#contact">যোগাযোগের তথ্য দেখুন ↗</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom application-footer"><span>© <span id="year">2026</span> Alif Online Point</span><a href="index.html">Home</a></div>
+  </footer>
+
+  <script>
+    // IMPORTANT: Replace this with the business WhatsApp number in international format.
+    // Bangladesh example format: 8801XXXXXXXXX (no +, spaces, or starting 0).
+    const BUSINESS_WHATSAPP = "8801610003276";
+
+    const requestForm = document.getElementById("requestForm");
+    const detailsField = document.getElementById("details");
+    const charCount = document.getElementById("charCount");
+    const formStatus = document.getElementById("formStatus");
+
+    detailsField.addEventListener("input", () => {
+      charCount.textContent = detailsField.value.length;
+    });
+
+    requestForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!requestForm.reportValidity()) return;
+
+      const number = BUSINESS_WHATSAPP.replace(/\D/g, "");
+      if (!/^8801\d{9}$/.test(number)) {
+        formStatus.textContent = "ফর্ম চালু করতে application.html ফাইলে BUSINESS_WHATSAPP-এর জায়গায় আপনার ব্যবসার WhatsApp নম্বর বসাতে হবে (যেমন 88017XXXXXXXX)।";
+        formStatus.classList.add("form-status-error");
+        return;
+      }
+
+      const fullName = document.getElementById("fullName").value.trim();
+      const mobile = document.getElementById("mobile").value.trim();
+      const serviceType = document.getElementById("serviceType").value;
+      const applicationType = document.getElementById("applicationType").value.trim() || "উল্লেখ করা হয়নি";
+      const details = detailsField.value.trim() || "অতিরিক্ত বিবরণ দেওয়া হয়নি";
+      const message = [
+        "Alif Online Point — অনলাইন সেবা অনুরোধ",
+        "নাম: " + fullName,
+        "মোবাইল: " + mobile,
+        "সেবা: " + serviceType,
+        "আবেদনের ধরন: " + applicationType,
+        "বিবরণ: " + details
+      ].join("\n");
+
+      const whatsappUrl = "https://wa.me/" + number + "?text=" + encodeURIComponent(message);
+      window.location.href = whatsappUrl;
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
