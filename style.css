@@ -270,3 +270,17 @@ h1, h2, h3, p { margin-top: 0; }
   transition: color .2s ease, border-color .2s ease;
 }
 .service-link:hover, .service-link:focus-visible { color: #93c5fd; }
+.brand-logo {
+  display: block;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .brand-logo {
+    width: 120px;
+    height: 80px;
+  }
+}
