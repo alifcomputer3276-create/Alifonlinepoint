@@ -1,0 +1,33 @@
+ALIF ONLINE POINT — FULL WEBSITE SETUP (বাংলা)
+
+ফাইল:
+1) index.html — সম্পূর্ণ ওয়েবসাইটের HTML
+2) style.css — সম্পূর্ণ ডিজাইন ও responsive CSS
+
+GitHub Pages-এ আপলোড:
+1. ZIP ফাইলটি Extract করুন।
+2. GitHub-এ আপনার Alifonlinepoint repository খুলুন।
+3. পুরোনো index.html ও style.css-এর backup রেখে নতুন দুটি ফাইল upload/replace করুন।
+4. Commit changes দিন।
+5. Settings > Pages-এ গিয়ে Source হিসেবে Deploy from a branch এবং branch main / root নির্বাচিত আছে কি না দেখুন।
+6. কিছুক্ষণ পর আপনার সাইট refresh করুন।
+
+নিজের তথ্য বসানো (index.html):
+A) Google Form:
+   YOUR_GOOGLE_FORM_LINK_HERE খুঁজে আপনার Google Form-এর responder link বসান।
+   Form-এ নাম/যোগাযোগ/পেমেন্ট মাধ্যম/Transaction ID-এর মতো তথ্য চাইতে পারেন।
+   PIN, OTP বা password কখনো চাইবেন না।
+B) bKash:
+   01609189836 নম্বরটি HTML-এ আছে। এটি আপনার অনুমোদিত business Merchant/Retail payment number কি না নিশ্চিত না হয়ে প্রকাশ বা ব্যবহার করবেন না।
+C) Nagad/Rocket:
+   অনুমোদিত ব্যবসায়িক নম্বর পাওয়া গেলে payment section-এর অন্যান্য পেমেন্ট মাধ্যম অংশে নিজে যোগ করুন।
+D) যোগাযোগ:
+   index.html-এ "আপনার যোগাযোগ নম্বর যোগ করুন" এবং "আপনার ব্যবসার ঠিকানা যোগ করুন" লিখে খুঁজে নিজের সঠিক তথ্য বসান।
+   Call button-এর href="tel:"-এ tel:+8801XXXXXXXXX ফরম্যাটে নম্বর বসান।
+
+গুরুত্বপূর্ণ:
+- এই ওয়েবসাইটটি static HTML/CSS/JavaScript। Google Form শুধু তথ্য সংগ্রহ করবে।
+- এটি নিজে থেকে টাকা গ্রহণ, transaction যাচাই, বা স্বয়ংক্রিয় payment confirmation করবে না।
+- প্রকৃত ব্যবসায়িক পেমেন্ট ব্যবস্থা/অ্যাকাউন্টের অনুমোদন ও নিরাপত্তা দায়িত্বশীল প্রাপ্তবয়স্ক ব্যবসা-মালিকের মাধ্যমে নিশ্চিত করুন।
+- Google Fonts লোড করতে ইন্টারনেট প্রয়োজন; font না এলে fallback font ব্যবহার হবে।
+- GitHub Pages-এ সাধারণ static site প্রকাশ করা যায়। অর্থ লেনদেন পরিচালনার জন্য provider-এর শর্তাবলি ও উপযুক্ত hosting/backend যাচাই করুন।
