@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Alif Online Point logo">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17c7ff"/><stop offset="1" stop-color="#0873ec"/></linearGradient></defs>
+  <rect x="4" y="4" width="112" height="112" rx="27" fill="#06162f"/>
+  <path d="M27 84 53 28h15l27 56H77l-6-14H48l-6 14Z" fill="url(#g)"/>
+  <path d="m53 58 8-18 9 18Z" fill="#06162f"/>
+  <path d="M19 91c27 8 55 6 82-8" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="94" cy="24" r="5" fill="#ffd84a"/><circle cx="105" cy="36" r="3" fill="#18baff"/>
+</svg>
