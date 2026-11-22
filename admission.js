@@ -1,5 +1,5 @@
 /* Paste your deployed Google Apps Script Web App URL below after setup. */
-const FORM_ENDPOINT = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbypa4IPBd1-5f3rGYGYTRxlfeQmRyahIgVZ8p7i3kMDhvkFRy9pN5FWKtt40eRmYZ1Z-Q/exec';
 
 const form = document.getElementById('admissionForm');
 const statusBox = document.getElementById('formStatus');
